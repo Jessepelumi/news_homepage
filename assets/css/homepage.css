@@ -47,3 +47,35 @@ nav a {
     font-family: sans-serif;
     font-weight: 400;
 }
+
+section {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: -20px; */
+}
+
+.section_one {
+    width: 70%;
+    height: 500px;
+}
+
+.section_two {
+    width: 30%;
+    background-color: black;
+    height: 500px;
+}
+.first_s {
+    background-image: url(../images/image-web-3-desktop.jpg);
+    background-size: cover;
+    height: 60%;
+}
+
+.second_s {
+    display: flex;
+}
+.second_s_one {
+    width: 50%;
+}
+.second_s_two {
+    width: 50%;
+}

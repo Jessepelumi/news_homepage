@@ -1,4 +1,16 @@
 @charset "UTF-8";
+@font-face {
+    font-family: Inter-ExtraBold;
+    src: url(../fonts/static/Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: Inter-Bold;
+    src: url(../fonts/static/Inter-Bold.ttf);
+}
 
 * {
     box-sizing: border-box;
@@ -56,7 +68,6 @@ section {
 
 .section_one {
     width: 70%;
-    height: 500px;
 }
 
 .section_two {
@@ -74,8 +85,23 @@ section {
     display: flex;
 }
 .second_s_one {
-    width: 50%;
+    width: 45%;
+    text-align: left;
+    font-family: Inter-ExtraBold;
+    font-weight: 800;
+    font-size: 25px;
 }
 .second_s_two {
-    width: 50%;
+    width: 55%;
+}
+.second_s_two p {
+    font-size: var(--paragraph);
+    font-family: Inter-Regular;
+}
+.second_s_two button {
+    padding: 10px 20px;
+    font-family: Inter-Bold;
+    border: none;
+    background-color: var(--primary2);
+    color: var(--neutral1);
 }

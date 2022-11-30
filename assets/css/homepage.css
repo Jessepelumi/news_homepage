@@ -105,9 +105,6 @@ section {
     background-color: black;
     padding: 20px 10px;
 }
-.section_two {
-    color: var(--neutral1);
-}
 .section_two h1 {
     font-family: Inter-Bold;
     color: var(--primary1);

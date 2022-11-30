@@ -15,8 +15,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin-block: 1%;
-    margin-inline: 2%;
+    margin: 0;
     scroll-behavior: smooth;
 }
 
@@ -36,23 +35,23 @@ body {
 
 header {
     display: flex;
-    height: fit-content;
+    margin: 50px 100px 0;
 }
-
 .logo {
-    width: 60%;
+    width: 80%;
     font-weight: bolder;
 }
-.navigation {
+div.navigation {
     width: 40%;
+    padding: 10px 0;
+    text-align: center;
+    font-family: Inter-Regular;
 }
-
 nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
-
 nav a {
     text-decoration: none;
     color: var(--neutral3);
@@ -62,50 +61,52 @@ nav a {
 
 section {
     display: flex;
+    margin: 20px 100px 0;
     justify-content: space-between;
-    /* margin-top: -20px; */
 }
-
 .section_one {
-    width: 70%;
-}
-
-.section_two {
-    width: 30%;
-    background-color: black;
-    height: 500px;
+    width: 71%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .first_s {
     background-image: url(../images/image-web-3-desktop.jpg);
     background-size: cover;
-    height: 70%;
+    width: 100%;
+    height: 60%;
 }
-
 .second_s {
-    display: flex;
-}
-.second_s_one {
-    width: 45%;
+    width: 50%;
     text-align: left;
     font-family: Inter-ExtraBold;
     font-weight: 800;
-    font-size: 25px;
+    font-size: x-large;
 }
-.second_s_two {
-    width: 55%;
+.third_s {
+    width: 50%;
+    text-align: left;
 }
-.second_s_two p {
+.third_s p {
     font-size: var(--paragraph);
     font-family: Inter-Regular;
 }
-.second_s_two button {
+.third_s button {
     padding: 10px 20px;
     font-family: Inter-Bold;
     border: none;
     background-color: var(--primary2);
     color: var(--neutral1);
 }
-
+.section_two {
+    width: 27%;
+    background-color: black;
+    height: 500px;
+    padding: 20px 10px;
+}
 .section_two {
     color: var(--neutral1);
+}
+.section_two h1 {
+    font-family: Inter-Bold;
+    color: var(--primary1);
 }

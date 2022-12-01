@@ -86,6 +86,9 @@ section {
     font-size: x-large;
     color: var(--neutral4);
 }
+.second_s h1 {
+    width: 50%;
+}
 .third_s {
     width: 50%;
     height: 30%;
@@ -174,4 +177,63 @@ article {
 .third_a div.image_a {
     background-image: url(../images/image-gaming-growth.jpg);
     background-size: cover;
+}
+
+@media (max-width: 767px) {
+    header {
+        display: flex;
+        margin: 30px 20px 0;
+    }
+    .logo {
+        width: 80%;
+        font-weight: bolder;
+        color: var(--neutral4);
+    }
+    div.navigation {
+        display: none;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px 0;
+        justify-content: space-between;
+    }
+    .section_one {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .first_s {
+        background-image: url(../images/image-web-3-mobile.jpg);
+        background-size: cover;
+        height: 350px;
+        width: 100%;
+    }
+    .second_s {
+        height: 25%;
+        width: 100%;
+    }
+    .second_s h1 {
+        width: 80%;
+    }
+    .third_s {
+        height: 25%;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .section_two {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 20px 0;
+        justify-content: space-between;
+    }
+    .first_a, .second_a, .third_a {
+        width: 100%;
+        margin-bottom: 30px;
+    } 
 }

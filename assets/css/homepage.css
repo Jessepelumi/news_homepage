@@ -33,7 +33,7 @@ body {
     background-color: var(--neutral1);
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     header {
         display: flex;
         margin: 30px 100px 0;
@@ -78,7 +78,7 @@ body {
         background-image: url(../images/image-web-3-desktop.jpg);
         background-size: cover;
         width: 100%;
-        height: 70%;
+        aspect-ratio: 2/1;
         margin-bottom: 20px;
     }
     .second_s {
@@ -130,7 +130,7 @@ body {
     
     article {
         display: flex;
-        margin: 50px 100px 0;
+        margin: 30px 100px 0;
         justify-content: space-between;
     }
     .image_a {
@@ -172,11 +172,149 @@ body {
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 992px) {
+    header {
+        display: flex;
+        margin: 30px 20px 0;
+    }
+    .logo {
+        width: 80%;
+        font-weight: bolder;
+        color: var(--neutral4);
+    }
+    div.navigation {
+        display: none;
+    }
+    div.menu {
+        display: block;
+        text-align: right;
+        width: 20%;
+        padding: 10px;
+        font-size: 20px;
+        color: var(--neutral4);
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px 0;
+        justify-content: space-between;
+    }
+    .section_one {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .first_s {
+        background-image: url(../images/image-web-3-desktop.jpg);
+        background-size: cover;
+        width: 100%;
+        aspect-ratio: 2/1;
+        margin-bottom: 10px;
+    }
+    .second_s {
+        width: 100%;
+        text-align: left;
+        font-family: Inter-ExtraBold;
+        font-weight: 800;
+        font-size: x-large;
+        color: var(--neutral4);
+    }
+    .second_s h1 {
+        width: 80%;
+    }
+    .third_s {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .third_s p {
+        font-size: var(--paragraph);
+        font-family: Inter-Regular;
+        color: var(--neutral2);
+    }
+    .third_s button {
+        padding: 10px 20px;
+        font-family: Inter-Bold;
+        border: none;
+        background-color: var(--primary2);
+        color: var(--neutral1);
+    }
+    .section_two {
+        width: 100%;
+        margin-top: 40px;
+        background-color: var(--neutral4);
+        padding: 20px 10px;
+    }
+    .section_two h1 {
+        font-family: Inter-Bold;
+        color: var(--primary1);
+    }
+    .section_two h3 {
+        font-family: Inter-Bold;
+        font-size: var(--paragraph );
+        color: var(--neutral1);
+    }
+    .section_two p {
+        font-family: Inter-Regular;
+        font-size: var(--paragraph);
+        color: var(--neutral3);
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 20px 0;
+        justify-content: space-between;
+    }
+    .image_a {
+        width: 25%;
+    }
+    .content_a {
+        width: 70%;
+    }
+    .first_a, .second_a, .third_a {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .content_a h1 {
+        font-family: Inter-ExtraBold;
+        color: var(--neutral2);
+    }
+    .content_a h3 {
+        font-family: Inter-Bold;
+        color: var(--neutral4);
+        font-size: var(--paragraph);
+    }
+    .content_a p {
+        font-family: Inter-Regular;
+        font-size: var(--paragraph);
+        color: var(--neutral2);
+    }
+    .first_a div.image_a {
+        background-image: url(../images/image-retro-pcs.jpg);
+        background-size: cover;
+    }
+    .second_a div.image_a {
+        background-image: url(../images/image-top-laptops.jpg);
+        background-size: cover;
+    }
+    .third_a div.image_a {
+        background-image: url(../images/image-gaming-growth.jpg);
+        background-size: cover;
+    }
+}
+
+@media (min-width: 768px) {
 
 }
 
-@media (max-width: 767px) {
+@media (min-width: 600px) {
+    
+}
+
+@media (max-width: 600px) {
     header {
         display: flex;
         margin: 30px 20px 0;

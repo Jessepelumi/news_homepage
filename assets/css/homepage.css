@@ -33,153 +33,147 @@ body {
     background-color: var(--neutral1);
 }
 
-header {
-    display: flex;
-    margin: 30px 100px 0;
-}
-.logo {
-    width: 80%;
-    font-weight: bolder;
-    color: var(--neutral4);
-}
-div.navigation {
-    width: 40%;
-    padding: 10px 0;
-    text-align: center;
-    font-family: Inter-Regular;
-}
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
-nav a {
-    text-decoration: none;
-    color: var(--neutral2);
-    font-family: sans-serif;
-    font-weight: 400;
-}
-div.menu {
-    display: none;
+@media (min-width: 992px) {
+    header {
+        display: flex;
+        margin: 30px 100px 0;
+    }
+    .logo {
+        width: 80%;
+        font-weight: bolder;
+        color: var(--neutral4);
+    }
+    div.navigation {
+        width: 40%;
+        padding: 10px 0;
+        text-align: center;
+        font-family: Inter-Regular;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav a {
+        text-decoration: none;
+        color: var(--neutral2);
+        font-family: sans-serif;
+        font-weight: 400;
+    }
+    div.menu {
+        display: none;
+    }
+    
+    section {
+        display: flex;
+        margin: 20px 100px 0;
+        justify-content: space-between;
+    }
+    .section_one {
+        width: 71%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first_s {
+        background-image: url(../images/image-web-3-desktop.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 70%;
+        margin-bottom: 20px;
+    }
+    .second_s {
+        width: 50%;
+        text-align: left;
+        font-family: Inter-ExtraBold;
+        font-weight: 800;
+        font-size: x-large;
+        color: var(--neutral4);
+    }
+    .second_s h1 {
+        width: 50%;
+    }
+    .third_s {
+        width: 50%;
+        text-align: left;
+    }
+    .third_s p {
+        font-size: var(--paragraph);
+        font-family: Inter-Regular;
+        color: var(--neutral2);
+    }
+    .third_s button {
+        padding: 10px 20px;
+        font-family: Inter-Bold;
+        border: none;
+        background-color: var(--primary2);
+        color: var(--neutral1);
+    }
+    .section_two {
+        width: 27%;
+        background-color: var(--neutral4);
+        padding: 20px 10px;
+    }
+    .section_two h1 {
+        font-family: Inter-Bold;
+        color: var(--primary1);
+    }
+    .section_two h3 {
+        font-family: Inter-Bold;
+        font-size: var(--paragraph );
+        color: var(--neutral1);
+    }
+    .section_two p {
+        font-family: Inter-Regular;
+        font-size: var(--paragraph);
+        color: var(--neutral3);
+    }
+    
+    article {
+        display: flex;
+        margin: 50px 100px 0;
+        justify-content: space-between;
+    }
+    .image_a {
+        width: 25%;
+    }
+    .content_a {
+        width: 70%;
+    }
+    .content_a h1 {
+        font-family: Inter-ExtraBold;
+        color: var(--neutral2);
+    }
+    .content_a h3 {
+        font-family: Inter-Bold;
+        color: var(--neutral4);
+        font-size: var(--paragraph);
+    }
+    .content_a p {
+        font-family: Inter-Regular;
+        font-size: var(--paragraph);
+        color: var(--neutral2);
+    }
+    .first_a, .second_a, .third_a {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+    }
+    .first_a div.image_a {
+        background-image: url(../images/image-retro-pcs.jpg);
+        background-size: cover;
+    }
+    .second_a div.image_a {
+        background-image: url(../images/image-top-laptops.jpg);
+        background-size: cover;
+    }
+    .third_a div.image_a {
+        background-image: url(../images/image-gaming-growth.jpg);
+        background-size: cover;
+    }
 }
 
-section {
-    display: flex;
-    margin: 20px 100px 0;
-    justify-content: space-between;
-}
-.section_one {
-    width: 71%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.first_s {
-    background-image: url(../images/image-web-3-desktop.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 70%;
-    margin-bottom: 20px;
-}
-.second_s {
-    width: 50%;
-    height: 30%;
-    text-align: left;
-    font-family: Inter-ExtraBold;
-    font-weight: 800;
-    font-size: x-large;
-    color: var(--neutral4);
-}
-.second_s h1 {
-    width: 50%;
-}
-.third_s {
-    width: 50%;
-    height: 30%;
-    text-align: left;
-}
-.third_s p {
-    font-size: var(--paragraph);
-    font-family: Inter-Regular;
-    color: var(--neutral2);
-}
-.third_s button {
-    padding: 10px 20px;
-    font-family: Inter-Bold;
-    border: none;
-    background-color: var(--primary2);
-    color: var(--neutral1);
-}
-.section_two {
-    width: 27%;
-    background-color: var(--neutral4);
-    padding: 20px 10px;
-}
-.section_two h1 {
-    font-family: Inter-Bold;
-    color: var(--primary1);
-}
-.section_two h3 {
-    font-family: Inter-Bold;
-    font-size: var(--paragraph );
-    color: var(--neutral1);
-}
-.section_two p {
-    font-family: Inter-Regular;
-    font-size: var(--paragraph);
-    color: var(--neutral3);
-}
+@media (min-width: 768px) and (max-width: 991px) {
 
-article {
-    display: flex;
-    margin: 50px 100px 0;
-    justify-content: space-between;
-}
-.image_a {
-    width: 25%;
-}
-.content_a {
-    width: 70%;
-}
-.content_a h1 {
-    font-family: Inter-ExtraBold;
-    color: var(--neutral2);
-}
-.content_a h3 {
-    font-family: Inter-Bold;
-    color: var(--neutral4);
-    font-size: var(--paragraph);
-}
-.content_a p {
-    font-family: Inter-Regular;
-    font-size: var(--paragraph);
-    color: var(--neutral2);
-}
-.first_a {
-    display: flex;
-    justify-content: space-between;
-    width: 30%;
-}
-.first_a div.image_a {
-    background-image: url(../images/image-retro-pcs.jpg);
-    background-size: cover;
-}
-.second_a {
-    display: flex;
-    justify-content: space-between;
-    width: 30%;
-}
-.second_a div.image_a {
-    background-image: url(../images/image-top-laptops.jpg);
-    background-size: cover;
-}
-.third_a {
-    display: flex;
-    justify-content: space-between;
-    width: 30%;
-}
-.third_a div.image_a {
-    background-image: url(../images/image-gaming-growth.jpg);
-    background-size: cover;
 }
 
 @media (max-width: 767px) {
@@ -218,24 +212,56 @@ article {
     .first_s {
         background-image: url(../images/image-web-3-mobile.jpg);
         background-size: cover;
-        height: 350px;
         width: 100%;
+        aspect-ratio: 1;
+        margin-bottom: 10px;
     }
     .second_s {
-        height: 25%;
         width: 100%;
+        text-align: left;
+        font-family: Inter-ExtraBold;
+        font-weight: 800;
+        font-size: x-large;
+        color: var(--neutral4);
     }
     .second_s h1 {
         width: 80%;
     }
     .third_s {
-        height: 25%;
         width: 100%;
         margin-top: 20px;
+    }
+    .third_s p {
+        font-size: var(--paragraph);
+        font-family: Inter-Regular;
+        color: var(--neutral2);
+    }
+    .third_s button {
+        padding: 10px 20px;
+        font-family: Inter-Bold;
+        border: none;
+        background-color: var(--primary2);
+        color: var(--neutral1);
     }
     .section_two {
         width: 100%;
         margin-top: 40px;
+        background-color: var(--neutral4);
+        padding: 20px 10px;
+    }
+    .section_two h1 {
+        font-family: Inter-Bold;
+        color: var(--primary1);
+    }
+    .section_two h3 {
+        font-family: Inter-Bold;
+        font-size: var(--paragraph );
+        color: var(--neutral1);
+    }
+    .section_two p {
+        font-family: Inter-Regular;
+        font-size: var(--paragraph);
+        color: var(--neutral3);
     }
 
     article {
@@ -244,8 +270,42 @@ article {
         margin: 50px 20px 0;
         justify-content: space-between;
     }
+    .image_a {
+        width: 25%;
+    }
+    .content_a {
+        width: 70%;
+    }
     .first_a, .second_a, .third_a {
+        display: flex;
+        justify-content: space-between;
         width: 100%;
         margin-bottom: 30px;
-    } 
+    }
+    .content_a h1 {
+        font-family: Inter-ExtraBold;
+        color: var(--neutral2);
+    }
+    .content_a h3 {
+        font-family: Inter-Bold;
+        color: var(--neutral4);
+        font-size: var(--paragraph);
+    }
+    .content_a p {
+        font-family: Inter-Regular;
+        font-size: var(--paragraph);
+        color: var(--neutral2);
+    }
+    .first_a div.image_a {
+        background-image: url(../images/image-retro-pcs.jpg);
+        background-size: cover;
+    }
+    .second_a div.image_a {
+        background-image: url(../images/image-top-laptops.jpg);
+        background-size: cover;
+    }
+    .third_a div.image_a {
+        background-image: url(../images/image-gaming-growth.jpg);
+        background-size: cover;
+    }
 }

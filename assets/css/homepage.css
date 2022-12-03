@@ -33,288 +33,10 @@ body {
     background-color: var(--neutral1);
 }
 
-@media (min-width: 1200px) {
-    header {
-        display: flex;
-        margin: 30px 100px 0;
-    }
-    .logo {
-        width: 80%;
-        font-weight: bolder;
-        color: var(--neutral4);
-    }
-    div.navigation {
-        width: 40%;
-        padding: 10px 0;
-        text-align: center;
-        font-family: Inter-Regular;
-    }
-    nav ul {
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-    }
-    nav a {
-        text-decoration: none;
-        color: var(--neutral2);
-        font-family: sans-serif;
-        font-weight: 400;
-    }
-    div.menu {
-        display: none;
-    }
-    
-    section {
-        display: flex;
-        margin: 20px 100px 0;
-        justify-content: space-between;
-    }
-    .section_one {
-        width: 71%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .first_s {
-        background-image: url(../images/image-web-3-desktop.jpg);
-        background-size: cover;
-        width: 100%;
-        aspect-ratio: 2/1;
-        margin-bottom: 20px;
-    }
-    .second_s {
-        width: 50%;
-        text-align: left;
-        font-family: Inter-ExtraBold;
-        font-weight: 800;
-        font-size: x-large;
-        color: var(--neutral4);
-    }
-    .second_s h1 {
-        width: 50%;
-    }
-    .third_s {
-        width: 50%;
-        text-align: left;
-    }
-    .third_s p {
-        font-size: var(--paragraph);
-        font-family: Inter-Regular;
-        color: var(--neutral2);
-    }
-    .third_s button {
-        padding: 10px 20px;
-        font-family: Inter-Bold;
-        border: none;
-        background-color: var(--primary2);
-        color: var(--neutral1);
-    }
-    .section_two {
-        width: 27%;
-        background-color: var(--neutral4);
-        padding: 20px 10px;
-    }
-    .section_two h1 {
-        font-family: Inter-Bold;
-        color: var(--primary1);
-    }
-    .section_two h3 {
-        font-family: Inter-Bold;
-        font-size: var(--paragraph );
-        color: var(--neutral1);
-    }
-    .section_two p {
-        font-family: Inter-Regular;
-        font-size: var(--paragraph);
-        color: var(--neutral3);
-    }
-    
-    article {
-        display: flex;
-        margin: 30px 100px 0;
-        justify-content: space-between;
-    }
-    .image_a {
-        width: 25%;
-    }
-    .content_a {
-        width: 70%;
-    }
-    .content_a h1 {
-        font-family: Inter-ExtraBold;
-        color: var(--neutral2);
-    }
-    .content_a h3 {
-        font-family: Inter-Bold;
-        color: var(--neutral4);
-        font-size: var(--paragraph);
-    }
-    .content_a p {
-        font-family: Inter-Regular;
-        font-size: var(--paragraph);
-        color: var(--neutral2);
-    }
-    .first_a, .second_a, .third_a {
-        display: flex;
-        justify-content: space-between;
-        width: 30%;
-    }
-    .first_a div.image_a {
-        background-image: url(../images/image-retro-pcs.jpg);
-        background-size: cover;
-    }
-    .second_a div.image_a {
-        background-image: url(../images/image-top-laptops.jpg);
-        background-size: cover;
-    }
-    .third_a div.image_a {
-        background-image: url(../images/image-gaming-growth.jpg);
-        background-size: cover;
-    }
-}
-
-@media (min-width: 992px) {
-    header {
-        display: flex;
-        margin: 30px 20px 0;
-    }
-    .logo {
-        width: 80%;
-        font-weight: bolder;
-        color: var(--neutral4);
-    }
-    div.navigation {
-        display: none;
-    }
-    div.menu {
-        display: block;
-        text-align: right;
-        width: 20%;
-        padding: 10px;
-        font-size: 20px;
-        color: var(--neutral4);
-    }
-    
-    section {
-        display: flex;
-        flex-direction: column;
-        margin: 20px 20px 0;
-        justify-content: space-between;
-    }
-    .section_one {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    .first_s {
-        background-image: url(../images/image-web-3-desktop.jpg);
-        background-size: cover;
-        width: 100%;
-        aspect-ratio: 2/1;
-        margin-bottom: 10px;
-    }
-    .second_s {
-        width: 100%;
-        text-align: left;
-        font-family: Inter-ExtraBold;
-        font-weight: 800;
-        font-size: x-large;
-        color: var(--neutral4);
-    }
-    .second_s h1 {
-        width: 80%;
-    }
-    .third_s {
-        width: 100%;
-        margin-top: 20px;
-    }
-    .third_s p {
-        font-size: var(--paragraph);
-        font-family: Inter-Regular;
-        color: var(--neutral2);
-    }
-    .third_s button {
-        padding: 10px 20px;
-        font-family: Inter-Bold;
-        border: none;
-        background-color: var(--primary2);
-        color: var(--neutral1);
-    }
-    .section_two {
-        width: 100%;
-        margin-top: 40px;
-        background-color: var(--neutral4);
-        padding: 20px 10px;
-    }
-    .section_two h1 {
-        font-family: Inter-Bold;
-        color: var(--primary1);
-    }
-    .section_two h3 {
-        font-family: Inter-Bold;
-        font-size: var(--paragraph );
-        color: var(--neutral1);
-    }
-    .section_two p {
-        font-family: Inter-Regular;
-        font-size: var(--paragraph);
-        color: var(--neutral3);
-    }
-
-    article {
-        display: flex;
-        flex-direction: column;
-        margin: 50px 20px 0;
-        justify-content: space-between;
-    }
-    .image_a {
-        width: 25%;
-    }
-    .content_a {
-        width: 70%;
-    }
-    .first_a, .second_a, .third_a {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .content_a h1 {
-        font-family: Inter-ExtraBold;
-        color: var(--neutral2);
-    }
-    .content_a h3 {
-        font-family: Inter-Bold;
-        color: var(--neutral4);
-        font-size: var(--paragraph);
-    }
-    .content_a p {
-        font-family: Inter-Regular;
-        font-size: var(--paragraph);
-        color: var(--neutral2);
-    }
-    .first_a div.image_a {
-        background-image: url(../images/image-retro-pcs.jpg);
-        background-size: cover;
-    }
-    .second_a div.image_a {
-        background-image: url(../images/image-top-laptops.jpg);
-        background-size: cover;
-    }
-    .third_a div.image_a {
-        background-image: url(../images/image-gaming-growth.jpg);
-        background-size: cover;
-    }
-}
-
-@media (min-width: 768px) {
-
-}
-
-@media (min-width: 600px) {
-    
-}
-
-@media (max-width: 600px) {
+/* smartphones (portrait and landscape) */
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
     header {
         display: flex;
         margin: 30px 20px 0;
@@ -373,6 +95,7 @@ body {
         font-size: var(--paragraph);
         font-family: Inter-Regular;
         color: var(--neutral2);
+        margin-bottom: 20px;
     }
     .third_s button {
         padding: 10px 20px;
@@ -390,16 +113,19 @@ body {
     .section_two h1 {
         font-family: Inter-Bold;
         color: var(--primary1);
+        margin-bottom: 20px;
     }
     .section_two h3 {
         font-family: Inter-Bold;
         font-size: var(--paragraph );
         color: var(--neutral1);
+        margin: 20px 0;
     }
     .section_two p {
         font-family: Inter-Regular;
         font-size: var(--paragraph);
         color: var(--neutral3);
+        margin: 20px 0;
     }
 
     article {
@@ -423,16 +149,309 @@ body {
     .content_a h1 {
         font-family: Inter-ExtraBold;
         color: var(--neutral2);
+        margin-bottom: 20px;
     }
     .content_a h3 {
         font-family: Inter-Bold;
         color: var(--neutral4);
         font-size: var(--paragraph);
+        margin-bottom: 10px;
     }
     .content_a p {
         font-family: Inter-Regular;
         font-size: var(--paragraph);
         color: var(--neutral2);
+    }
+    .first_a div.image_a {
+        background-image: url(../images/image-retro-pcs.jpg);
+        background-size: cover;
+    }
+    .second_a div.image_a {
+        background-image: url(../images/image-top-laptops.jpg);
+        background-size: cover;
+    }
+    .third_a div.image_a {
+        background-image: url(../images/image-gaming-growth.jpg);
+        background-size: cover;
+    }
+}
+
+/* iPads (portrait and landscape) */
+@media only screen 
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    header {
+        display: flex;
+        margin: 30px 50px 0;
+    }
+    .logo {
+        width: 80%;
+        font-weight: bolder;
+        color: var(--neutral4);
+    }
+    div.navigation {
+        display: none;
+    }
+    div.menu {
+        display: block;
+        text-align: right;
+        width: 20%;
+        padding: 10px;
+        font-size: 20px;
+        color: var(--neutral4);
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 50px 0;
+        justify-content: space-between;
+    }
+    .section_one {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first_s {
+        background-image: url(../images/image-web-3-desktop.jpg);
+        background-size: cover;
+        width: 100%;
+        aspect-ratio: 2/1;
+        margin-bottom: 20px;
+    }
+    .second_s {
+        width: 50%;
+        text-align: left;
+        font-family: Inter-ExtraBold;
+        font-weight: 800;
+        font-size: x-large;
+        color: var(--neutral4);
+    }
+    .second_s h1 {
+        width: 70%;
+    }
+    .third_s {
+        width: 50%;
+        text-align: left;
+    }
+    .third_s p {
+        font-size: var(--paragraph);
+        font-family: Inter-Regular;
+        color: var(--neutral2);
+        margin-bottom: 20px
+    }
+    .third_s button {
+        padding: 10px 20px;
+        font-family: Inter-Bold;
+        border: none;
+        background-color: var(--primary2);
+        color: var(--neutral1);
+    }
+    .section_two {
+        width: 75%;
+        background-color: var(--neutral4);
+        padding: 20px 10px;
+        margin: 30px auto;
+    }
+    .section_two h1 {
+        font-family: Inter-Bold;
+        color: var(--primary1);
+        margin-bottom: 30px;
+    }
+    .section_two h3 {
+        font-family: Inter-Bold;
+        font-size: var(--paragraph );
+        color: var(--neutral1);
+        margin: 30px 0;
+    }
+    .section_two p {
+        font-family: Inter-Regular;
+        font-size: var(--paragraph);
+        color: var(--neutral3);
+        margin: 30px 0;
+    }
+    
+    article {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 50px 0;
+        justify-content: space-between;
+    }
+    .image_a {
+        width: 25%;
+    }
+    .content_a {
+        width: 70%;
+    }
+    .content_a h1 {
+        font-family: Inter-ExtraBold;
+        color: var(--neutral2);
+        margin-bottom: 20px;
+    }
+    .content_a h3 {
+        font-family: Inter-Bold;
+        color: var(--neutral4);
+        font-size: var(--paragraph);
+        margin-bottom: 10px;
+    }
+    .content_a p {
+        font-family: Inter-Regular;
+        font-size: var(--paragraph);
+        color: var(--neutral2);
+    }
+    .first_a, .second_a, .third_a {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .first_a div.image_a {
+        background-image: url(../images/image-retro-pcs.jpg);
+        background-size: cover;
+    }
+    .second_a div.image_a {
+        background-image: url(../images/image-top-laptops.jpg);
+        background-size: cover;
+    }
+    .third_a div.image_a {
+        background-image: url(../images/image-gaming-growth.jpg);
+        background-size: cover;
+    }
+}
+
+/* desktops and laptops */
+@media only screen 
+and (min-device-width: 1224px) {
+    header {
+        display: flex;
+        margin: 30px 100px 0;
+    }
+    .logo {
+        width: 80%;
+        font-weight: bolder;
+        color: var(--neutral4);
+    }
+    div.navigation {
+        width: 40%;
+        padding: 10px 0;
+        text-align: center;
+        font-family: Inter-Regular;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav a {
+        text-decoration: none;
+        color: var(--neutral2);
+        font-family: sans-serif;
+        font-weight: 400;
+    }
+    div.menu {
+        display: none;
+    }
+    
+    section {
+        display: flex;
+        margin: 20px 100px 0;
+        justify-content: space-between;
+    }
+    .section_one {
+        width: 71%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first_s {
+        background-image: url(../images/image-web-3-desktop.jpg);
+        background-size: cover;
+        width: 100%;
+        aspect-ratio: 2.5/1;
+        margin-bottom: 20px;
+    }
+    .second_s {
+        width: 50%;
+        text-align: left;
+        font-family: Inter-ExtraBold;
+        font-weight: 800;
+        font-size: x-large;
+        color: var(--neutral4);
+    }
+    .second_s h1 {
+        width: 50%;
+    }
+    .third_s {
+        width: 50%;
+        text-align: left;
+    }
+    .third_s p {
+        font-size: var(--paragraph);
+        font-family: Inter-Regular;
+        color: var(--neutral2);
+        margin-bottom: 30px;
+    }
+    .third_s button {
+        padding: 10px 20px;
+        font-family: Inter-Bold;
+        border: none;
+        background-color: var(--primary2);
+        color: var(--neutral1);
+    }
+    .section_two {
+        width: 27%;
+        background-color: var(--neutral4);
+        padding: 10px 10px 0;
+    }
+    .section_two h1 {
+        font-family: Inter-Bold;
+        color: var(--primary1);
+        margin: 20px 0;
+    }
+    .section_two h3 {
+        font-family: Inter-Bold;
+        font-size: var(--paragraph );
+        color: var(--neutral1);
+        margin: 20px 0;
+    }
+    .section_two p {
+        font-family: Inter-Regular;
+        font-size: var(--paragraph);
+        color: var(--neutral3);
+        margin: 20px 0;
+        line-height: 20px;
+    }
+    
+    article {
+        display: flex;
+        margin: 30px  100px 0;
+        justify-content: space-between;
+    }
+    .image_a {
+        width: 25%;
+    }
+    .content_a {
+        width: 70%;
+    }
+    .content_a h1 {
+        font-family: Inter-ExtraBold;
+        color: var(--neutral2);
+        margin-bottom: 20px;
+    }
+    .content_a h3 {
+        font-family: Inter-Bold;
+        color: var(--neutral4);
+        font-size: var(--paragraph);
+        margin-bottom: 20px;
+    }
+    .content_a p {
+        font-family: Inter-Regular;
+        font-size: var(--paragraph);
+        color: var(--neutral2);
+    }
+    .first_a, .second_a, .third_a {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
     }
     .first_a div.image_a {
         background-image: url(../images/image-retro-pcs.jpg);
